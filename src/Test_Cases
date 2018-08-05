@@ -1,0 +1,36 @@
+Main page checks:
+1. all mob_menu items and subitems works +- (for menu block on-line payments some subitems works incorrectly. You should click
+twice to return to the main page)
+2. all mob menu subitems have a Title - done (in the same TC)
+3. all main_menu items and subitems are clickable  -++
+4. links on the product block (MiddleSite) clicable and work - ++
+5. search on site works (up button)
+6. search on site works (down button)
+7. button "show else" works (at list 10 times)
+8. 3 buttons  (USD and bitcoin rates) work correctly
+9. buttons  "Бонус к депозитам" , "Переводы" work correctly
+10. check the buttom: Популярные страницы
+11. check the buttom: Популярные страницы банков
+12. check the buttom: Помощь
+13. check the buttom: Правила пользования
+14. check the buttom "Сообщить об ошибке" works correctly
+15. social media buttons work correctly
+16. the block ВАЛЮТНЫЙ АУКЦИОН functionality
+17. the block ДЕПОЗИТЫ functionality
+18. the block КРЕДИТЫ functionality
+19. the block КРЕДИТНЫЕ КАРТЫ functionality
+20. that all artickels on the main page are unique
+
+21. registration functionality check
+22. loggin functionality check
+
+
+Banks currency page (https://minfin.com.ua/currency/banks/)
+1.(23) up-menu line cliclability ckeck
+2.(24) option "Choose the city" works
+3.(25) option choose the daate works
+4.(26) option "show the diagramma" works
+5.(27) subscribe (e-mail)
+
+Ckookies checks:
+
