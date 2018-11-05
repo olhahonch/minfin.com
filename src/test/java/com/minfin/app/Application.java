@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
  * Created by User on 11.07.2018.
  */
 public class Application {
-    private ChromeOptions opt;
+  // private ChromeOptions opt;
     private WebDriver driver;
 
     private MainPage mainPage;
@@ -37,9 +37,9 @@ public class Application {
     private MobMenu mobMenu;
 
     public Application() {
-       opt = new ChromeOptions();
-        opt.setPageLoadStrategy(PageLoadStrategy.NORMAL);
-        driver = new ChromeDriver(opt);
+//        opt = new ChromeOptions();
+//        opt.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+        driver = new ChromeDriver();
 
         mainPage = new MainPage(driver);
         currencyWidget = new CurrencyWidget(driver);
@@ -63,9 +63,9 @@ public class Application {
         mobMenu = new MobMenu(driver);
 
     }
-public void mainMenuGetResponsesCheck(String href, String CSSSelectorSubItem) {
+public void mainMenuGetResponsesCheck() {
         mainPage.open();
-        mainMenu.subtemsGETResponsesCheck(href, CSSSelectorSubItem);
+        mainMenu.subtemsGETResponsesCheck();
 }
 
     public void mainMenuMainItemsCheck() {
@@ -92,7 +92,6 @@ public void mainMenuGetResponsesCheck(String href, String CSSSelectorSubItem) {
     public void quit() {
         driver.quit();
     }
-
 
 
 }

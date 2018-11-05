@@ -1,6 +1,5 @@
 package com.minfin.pages.main;
 
-import com.minfin.pages.Page;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 

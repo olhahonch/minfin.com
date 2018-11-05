@@ -25,7 +25,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class SetDriver {
     public static WebDriver driver;
-    public static JavascriptExecutor jse;
+  //  public static JavascriptExecutor jse;
     public static WebDriverWait wait;
 
     @Before

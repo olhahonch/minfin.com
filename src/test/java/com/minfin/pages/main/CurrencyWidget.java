@@ -1,7 +1,5 @@
 package com.minfin.pages.main;
 
-import com.minfin.pages.Page;
-import com.minfin.pages.staticPart.MainMenu;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
